@@ -1,0 +1,71 @@
+body {
+    background-color: #e9a178;
+}
+
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-brand img
+{
+    width:140px;
+}
+
+.navbar-brand
+{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 10PX;
+}
+
+.navbar
+{
+   padding: 1em 0 !important; 
+}
+
+.navbar-toggler
+{
+    border: none !important;
+    outline: none !important;
+}
+
+.nav-link {
+    color: #7A3E65;
+}
+
+.carousel-item {
+    height: 32rem;
+    background: black;
+    position: relative;
+    color: white;
+    background-position: center;
+    background-size: cover;
+}
+
+.container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-bottom: 50px;
+}
+
+.overlay-image {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.5;
+}
+
+
+
+
+
+
