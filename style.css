@@ -1,6 +1,17 @@
 body {
-    background-color: #e9a178;
+    background-color: #F6E1C3;
 }
+
+button {
+    background-color: #372948;
+    color: #FFECEF; /* Pink text */
+    padding: 10px 24px; /* Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    width: 100%; /* Set a width if needed */
+    display: block; /* Make the buttons appear below each other */
+    border-radius: 10px;
+    text-align: center;
+  }
 
 *
 {
@@ -10,7 +21,7 @@ body {
 
 .navbar-brand img
 {
-    width:140px;
+    width:200px;
 }
 
 .navbar-brand
@@ -18,7 +29,7 @@ body {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    top: 10PX;
+    top: 2PX;
 }
 
 .navbar
@@ -34,6 +45,15 @@ body {
 
 .nav-link {
     color: #7A3E65;
+    font-family: Leelawadee UI;
+    font-size: 2vw;
+}
+
+.banner {
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #A84448;
+    height: 150px;
 }
 
 .carousel-item {
@@ -62,6 +82,10 @@ body {
     background-position: center;
     background-size: cover;
     opacity: 0.5;
+}
+
+footer {
+    font-family: Muli;
 }
 
 
