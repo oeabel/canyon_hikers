@@ -9,42 +9,32 @@ button {
     cursor: pointer; /* Pointer/hand icon */
     width: 100%; /* Set a width if needed */
     display: block; /* Make the buttons appear below each other */
-    border-radius: 10px;
     text-align: center;
   }
 
-*
-{
+* {
     padding: 0;
     margin: 0;
 }
 
-.navbar-brand img
-{
+.navbar-brand img {
     width:200px;
 }
 
-.navbar-brand
-{
+.navbar-brand {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
     top: 2PX;
 }
 
-.navbar
-{
-   padding: 1em 0 !important; 
-}
-
-.navbar-toggler
-{
+.navbar-toggler {
     border: none !important;
     outline: none !important;
 }
 
 .nav-link {
-    color: #7A3E65;
+    color: #F6E1C3;
     font-family: Leelawadee UI;
     font-size: 2vw;
 }
@@ -53,7 +43,7 @@ button {
     padding-left: 10px;
     padding-right: 10px;
     background-color: #A84448;
-    height: 150px;
+    height: 100px;
 }
 
 .carousel-item {
@@ -70,7 +60,7 @@ button {
     bottom: 0;
     left: 0;
     right: 0;
-    padding-bottom: 50px;
+    padding-bottom: 25px;
 }
 
 .overlay-image {
@@ -87,6 +77,27 @@ button {
 footer {
     font-family: Muli;
 }
+
+.bckgrd {
+    background-color: #FFCACA;
+  }
+
+  h1, h3 {
+    color: #251B37;
+    text-align: center;
+  }
+
+  p {
+    font-size: 1vw;
+  }
+
+  h4 {
+    font-size: 1.5vw;
+  }
+
+  .row {
+    line-height: .5;
+  }
 
 
 
